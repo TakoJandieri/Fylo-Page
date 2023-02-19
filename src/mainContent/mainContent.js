@@ -28,10 +28,8 @@ export default function Content (){
             
             setTip('Got it')
             setEnter(enter)
-            console.log("daklikuli 3iani ", enter)
         }else {
             setTip('Please check your email')
-            console.log("daklikuli ara3iani ", enter)
         }
     }
 
@@ -41,10 +39,8 @@ export default function Content (){
             e.preventDefault();
             setTip('Got it')
             setEnter(e.target.value)
-            console.log("enterze dawerili 3iani ", enter)
         }else if(e.key === 'Enter'){
             setTip('Please check your email')
-            console.log("enterze dawerili ara3iani ", enter)
         }else if(!e.target.value){
             setTip('');
         }
