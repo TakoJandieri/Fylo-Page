@@ -1,0 +1,533 @@
+.curveDesktop {
+    display: none;
+}
+
+.filephoto {
+    width: 304px;
+}
+
+.file {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.mainContentContainer {
+    padding: 24px;
+}
+
+.firstfiletext > h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #07043B;
+
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.firstfiletext > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-align: center;
+
+    color: #07043B;
+
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+
+.tipmsg {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+
+    color: #EF4877;
+    margin-top: 5px;
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 32px;
+}    
+
+.mailfield {
+    width: 304px;
+    height: 40px;
+}
+
+.getStartBtn {
+    border: none;
+    background-color: #2F65F8;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    width: 311px;
+    height: 40px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.getStartBtn:hover {
+    background: #6C9BFF;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+    border-radius: 3.125px;
+    cursor: pointer;
+}
+
+
+.filephoto2 {
+    width: 304px;
+   
+}
+
+.file2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    margin-top: 143px;
+   
+    background-color: #F8F8FE;
+    margin-left: -24px;
+    margin-right: -24px;
+    
+}
+
+.curveMob {
+    margin-top: -53px;
+}
+
+.file2bottom {
+    /* margin-top: 183px; */
+    margin-left: 24px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondFileText > h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* identical to box height, or 150% */
+    text-align: center;
+
+    color: #07043B;
+    margin-top: 87px;
+}
+
+.secondFileText > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    /* or 150% */
+    text-align: center;
+
+    color: #615F7E;
+}
+
+.greenline {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3DA08F;
+}
+
+.line {
+    height: 1px;
+    width: 130px;
+    background-color: #3DA08F;
+    margin-bottom: 40px;
+    margin-top: 6px;
+
+}
+
+.feedback {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px 4px rgba(56, 56, 56, 0.0458843);
+    border-radius: 3.93258px;
+    width: 241px;
+    /* margin: 0 auto; */
+    padding: 20px 12.74px 19.25px 25.96px;
+    margin-bottom: 82px;
+}
+
+.feedback > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+
+    letter-spacing: 0.384615px;
+
+    color: #07043B;
+   
+
+}
+
+.avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.feedbackauthor {
+    display: flex;
+    gap: 7.46px;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.45px;
+
+    color: #07043B;
+}
+
+
+.occupation {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 12px;
+    letter-spacing: 0.3px;
+
+    color: #07043B;
+
+
+}
+
+.bottomGetStart {
+    background-color: #575988;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 48px 48px 71px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 249px;
+}
+
+.bottomGetStartText > h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+
+.bottomGetStartText > p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    
+}
+
+.mailfield2 {
+    width: 240px;
+    height: 32px;
+    margin-top: 10px;
+}
+
+.tipmsg2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+
+    color: #FFFFFF;
+}
+
+.getStartBtn2 {
+    width: 247px;
+    height: 32px;
+    border: none;
+    background-color: #2F65F8;
+    box-shadow: 1px 1px 3px rgba(7, 4, 59, 0.157043);
+    border-radius: 1.47059px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.getStartBtn2:hover {
+    background: #6C9BFF;
+    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+    border-radius: 3.125px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+    .curveMob {
+        display: none;
+    }
+
+    .mobilebr {
+        display: none;
+    }
+
+    .mobilebr2 {
+        display: none;
+    }
+
+    .mainContentContainer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .firstfile {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: -40px;
+        
+    }
+
+    .filephoto {
+        width: 640px;
+        /* margin-bottom: 164px; */
+    }
+
+    .firstfiletext {
+        align-items: flex-start;
+    }
+
+    .firstfiletext > h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        text-align:left;
+        margin-top: 110px;
+        width: 627px;
+    }
+
+    .firstfiletext > p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 24px;
+
+        text-align:left;
+        letter-spacing: 0.53125px;
+        width: 585px;
+    }
+
+    .inputDiv {
+        margin-top: -160px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+
+    .mailfield {
+        width: 316px;
+        height: 39px;
+    }
+
+    .getStartBtn {
+        width: 208px;
+        height: 47px;
+       
+    }
+
+    .tipmsg {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        width: 143px;
+        color: #EF4877;
+        
+    }
+
+    .curveDesktop {
+        display: block;
+        margin-top: -110px;
+        margin-left: -20px;
+    }
+
+    .file2 {
+        margin-top: 380px;
+        /* width: 1360px; */
+        /* margin-right: -40px;
+        margin-left: -40px; */
+        margin-right: -57px;
+        margin-left: -40px;
+        padding-left: 20px;
+    }
+
+    .file2bottom {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 0px;
+        margin-left: 24px;
+        margin-right: 24px;
+       
+    }
+
+    .filephoto2 {
+        width: 542px;
+    }
+
+    .secondFileText > h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        color: #07043B;
+        text-align: left;
+
+    }
+
+    .secondFileText > p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #07043B;
+        text-align: left;
+        width: 529px;
+    }
+
+    .greenline {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .line {
+        width: 166px;
+    }
+
+    .feedback {
+        width: 289px;
+        padding: 30px 34px 26px 33px;
+    }
+
+    .feedback > p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.5px;
+        color: #07043B;
+    }
+
+    .avatar {
+        width: 32px;
+        height: 32px;
+    }
+
+    .name {
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.55px;
+
+        color: #07043B;
+    }
+
+    .occupation {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 15px;
+        letter-spacing: 0.4px;
+
+        color: #07043B;
+    }
+
+    .bottomGetStart {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 56px;
+        width: 1360px;
+        margin-left: -40px;
+        padding-left: 40px;
+        
+    }
+
+    .bottomGetStartText > h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .bottomGetStartText > p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        letter-spacing: 0.5px;
+        width: 533px;
+    }
+
+    .mailfield2 {
+        width: 472px;
+        height: 42px;
+    }
+
+    .getStartBtn2 {
+        width: 192px;
+        height: 46px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .tipmsg2 {
+        margin-top: 4px;
+    }
+
+}

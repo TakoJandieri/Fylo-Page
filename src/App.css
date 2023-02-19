@@ -1,0 +1,11 @@
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+@media  screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    overflow: hidden;
+  }
+}

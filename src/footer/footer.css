@@ -1,0 +1,108 @@
+.footerContainer {
+    background-color: #07043B;
+    margin-top: -24px;
+    padding: 65px 65px 42px 39px;
+}
+
+.phone > p, .email > p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.emailp {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.email {
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.phone, .email {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+
+.phoneimg, .emailimg {
+    height: 18px;
+}
+
+.fylologo {
+    filter: grayscale(200%) invert(50%) brightness(200%);
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.tags1 > h1, .tags2 > h1  {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    
+}
+
+.tags1 > h1:hover, .tags2 > h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.blog {
+    margin-bottom: 32.5px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+.fb, .twitter, .instagram {
+    height: 27px;
+    filter: invert(50%) brightness(200%);
+    margin-right: 10.82px;
+    margin-top: 32px;
+}
+
+.fb:hover, .instagram:hover, .twitter:hover {
+    filter:  brightness(0) saturate(100%) invert(57%) sepia(45%) saturate(1641%) hue-rotate(196deg) brightness(98%) contrast(105%);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+    .footerContainer {
+        padding: 93px 40px 86px 40px;
+        width: 1360px;
+        
+        padding-right: 56px;
+        padding-left: 40px;
+    }
+
+    .allInfo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .socialmedia {
+        margin-right: 130px;
+    }
+
+    .fb, .twitter, .instagram  {
+        height: 31px;
+    }
+
+    .fylologo {
+        width: 122px;
+        margin-bottom: 20px;
+    }
+}
